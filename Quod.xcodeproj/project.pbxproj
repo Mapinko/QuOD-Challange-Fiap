@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D9E06AED270E38857BC612E /* Pods_Quod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74DB48386439E9224DB5963A /* Pods_Quod.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8519A2732CFE529E003E62FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8519A25A2CFE529C003E62FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8519A2612CFE529C003E62FE;
+			remoteInfo = Quod;
+		};
+		8519A27D2CFE529E003E62FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8519A25A2CFE529C003E62FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8519A2612CFE529C003E62FE;
+			remoteInfo = Quod;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		74DB48386439E9224DB5963A /* Pods_Quod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8503EB622CFE9EF4003F50EE /* Quod.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Quod.xcodeproj; sourceTree = "<group>"; };
+		8503EBA32CFEA1FD003F50EE /* Quod.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Quod.xcodeproj; sourceTree = "<group>"; };
+		8503EC6E2CFEA33E003F50EE /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Pods.xcodeproj; sourceTree = "<group>"; };
+		8519A2622CFE529C003E62FE /* Quod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8519A2722CFE529E003E62FE /* QuodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8519A27C2CFE529E003E62FE /* QuodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8519A3402CFE9DFD003E62FE /* Quod.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Quod.xcodeproj; path = Quod/Quod.xcodeproj; sourceTree = SOURCE_ROOT; };
+		9EC8FC057D46D9FC78CD398A /* Pods-Quod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quod.debug.xcconfig"; path = "Target Support Files/Pods-Quod/Pods-Quod.debug.xcconfig"; sourceTree = "<group>"; };
+		B41328A9910B58C5AC9DE8AE /* Pods-Quod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quod.release.xcconfig"; path = "Target Support Files/Pods-Quod/Pods-Quod.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8519A2642CFE529C003E62FE /* Quod */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Quod;
+			sourceTree = "<group>";
+		};
+		8519A2752CFE529E003E62FE /* QuodTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = QuodTests;
+			sourceTree = "<group>";
+		};
+		8519A27F2CFE529E003E62FE /* QuodUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = QuodUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8519A25F2CFE529C003E62FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D9E06AED270E38857BC612E /* Pods_Quod.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8519A26F2CFE529E003E62FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8519A2792CFE529E003E62FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		447BF1F8611CE503A2DA504C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9EC8FC057D46D9FC78CD398A /* Pods-Quod.debug.xcconfig */,
+				B41328A9910B58C5AC9DE8AE /* Pods-Quod.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8503EB642CFE9EF4003F50EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8503EBA52CFEA1FD003F50EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8503EC702CFEA33E003F50EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8519A2592CFE529C003E62FE = {
+			isa = PBXGroup;
+			children = (
+				8519A2642CFE529C003E62FE /* Quod */,
+				8519A2752CFE529E003E62FE /* QuodTests */,
+				8519A27F2CFE529E003E62FE /* QuodUITests */,
+				8519A2632CFE529C003E62FE /* Products */,
+				447BF1F8611CE503A2DA504C /* Pods */,
+				F303CF2400E50AC40FF6ADFA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8519A2632CFE529C003E62FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8519A2622CFE529C003E62FE /* Quod.app */,
+				8519A2722CFE529E003E62FE /* QuodTests.xctest */,
+				8519A27C2CFE529E003E62FE /* QuodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8519A3432CFE9DFD003E62FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F303CF2400E50AC40FF6ADFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74DB48386439E9224DB5963A /* Pods_Quod.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8519A2612CFE529C003E62FE /* Quod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8519A2862CFE529E003E62FE /* Build configuration list for PBXNativeTarget "Quod" */;
+			buildPhases = (
+				AF9DDEDA09BFB7CB3396AB81 /* [CP] Check Pods Manifest.lock */,
+				8519A25E2CFE529C003E62FE /* Sources */,
+				8519A25F2CFE529C003E62FE /* Frameworks */,
+				8519A2602CFE529C003E62FE /* Resources */,
+				D8844CC78F233A4AAFB0C1BC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8519A2642CFE529C003E62FE /* Quod */,
+			);
+			name = Quod;
+			productName = Quod;
+			productReference = 8519A2622CFE529C003E62FE /* Quod.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8519A2712CFE529E003E62FE /* QuodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8519A2892CFE529E003E62FE /* Build configuration list for PBXNativeTarget "QuodTests" */;
+			buildPhases = (
+				8519A26E2CFE529E003E62FE /* Sources */,
+				8519A26F2CFE529E003E62FE /* Frameworks */,
+				8519A2702CFE529E003E62FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8519A2742CFE529E003E62FE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8519A2752CFE529E003E62FE /* QuodTests */,
+			);
+			name = QuodTests;
+			productName = QuodTests;
+			productReference = 8519A2722CFE529E003E62FE /* QuodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8519A27B2CFE529E003E62FE /* QuodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8519A28C2CFE529E003E62FE /* Build configuration list for PBXNativeTarget "QuodUITests" */;
+			buildPhases = (
+				8519A2782CFE529E003E62FE /* Sources */,
+				8519A2792CFE529E003E62FE /* Frameworks */,
+				8519A27A2CFE529E003E62FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8519A27E2CFE529E003E62FE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8519A27F2CFE529E003E62FE /* QuodUITests */,
+			);
+			name = QuodUITests;
+			productName = QuodUITests;
+			productReference = 8519A27C2CFE529E003E62FE /* QuodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8519A25A2CFE529C003E62FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					8519A2612CFE529C003E62FE = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					8519A2712CFE529E003E62FE = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 8519A2612CFE529C003E62FE;
+					};
+					8519A27B2CFE529E003E62FE = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 8519A2612CFE529C003E62FE;
+					};
+				};
+			};
+			buildConfigurationList = 8519A25D2CFE529C003E62FE /* Build configuration list for PBXProject "Quod" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8519A2592CFE529C003E62FE;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8519A2632CFE529C003E62FE /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8503EC702CFEA33E003F50EE /* Products */;
+					ProjectRef = 8503EC6E2CFEA33E003F50EE /* Pods.xcodeproj */;
+				},
+				{
+					ProductGroup = 8503EB642CFE9EF4003F50EE /* Products */;
+					ProjectRef = 8503EB622CFE9EF4003F50EE /* Quod.xcodeproj */;
+				},
+				{
+					ProductGroup = 8503EBA52CFEA1FD003F50EE /* Products */;
+					ProjectRef = 8503EBA32CFEA1FD003F50EE /* Quod.xcodeproj */;
+				},
+				{
+					ProductGroup = 8519A3432CFE9DFD003E62FE /* Products */;
+					ProjectRef = 8519A3402CFE9DFD003E62FE /* Quod.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8519A2612CFE529C003E62FE /* Quod */,
+				8519A2712CFE529E003E62FE /* QuodTests */,
+				8519A27B2CFE529E003E62FE /* QuodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8519A2602CFE529C003E62FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8519A2702CFE529E003E62FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8519A27A2CFE529E003E62FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AF9DDEDA09BFB7CB3396AB81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Quod-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8844CC78F233A4AAFB0C1BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Quod/Pods-Quod-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Quod/Pods-Quod-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Quod/Pods-Quod-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8519A25E2CFE529C003E62FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8519A26E2CFE529E003E62FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8519A2782CFE529E003E62FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8519A2742CFE529E003E62FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8519A2612CFE529C003E62FE /* Quod */;
+			targetProxy = 8519A2732CFE529E003E62FE /* PBXContainerItemProxy */;
+		};
+		8519A27E2CFE529E003E62FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8519A2612CFE529C003E62FE /* Quod */;
+			targetProxy = 8519A27D2CFE529E003E62FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8519A2842CFE529E003E62FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8519A2852CFE529E003E62FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8519A2872CFE529E003E62FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EC8FC057D46D9FC78CD398A /* Pods-Quod.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Quod/Preview Content\"";
+				DEVELOPMENT_TEAM = D7385895RX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.fiap.Quod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8519A2882CFE529E003E62FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B41328A9910B58C5AC9DE8AE /* Pods-Quod.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Quod/Preview Content\"";
+				DEVELOPMENT_TEAM = D7385895RX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.fiap.Quod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		8519A28A2CFE529E003E62FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D7385895RX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.fiap.QuodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quod.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Quod";
+			};
+			name = Debug;
+		};
+		8519A28B2CFE529E003E62FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D7385895RX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.fiap.QuodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quod.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Quod";
+			};
+			name = Release;
+		};
+		8519A28D2CFE529E003E62FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D7385895RX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.fiap.QuodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Quod;
+			};
+			name = Debug;
+		};
+		8519A28E2CFE529E003E62FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D7385895RX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.fiap.QuodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Quod;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8519A25D2CFE529C003E62FE /* Build configuration list for PBXProject "Quod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8519A2842CFE529E003E62FE /* Debug */,
+				8519A2852CFE529E003E62FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8519A2862CFE529E003E62FE /* Build configuration list for PBXNativeTarget "Quod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8519A2872CFE529E003E62FE /* Debug */,
+				8519A2882CFE529E003E62FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8519A2892CFE529E003E62FE /* Build configuration list for PBXNativeTarget "QuodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8519A28A2CFE529E003E62FE /* Debug */,
+				8519A28B2CFE529E003E62FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8519A28C2CFE529E003E62FE /* Build configuration list for PBXNativeTarget "QuodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8519A28D2CFE529E003E62FE /* Debug */,
+				8519A28E2CFE529E003E62FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8519A25A2CFE529C003E62FE /* Project object */;
+}
